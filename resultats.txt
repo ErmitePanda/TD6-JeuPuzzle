@@ -1,0 +1,91 @@
+fr.umontpellier.iut.partie1.AppTaquinTest
+fr.umontpellier.iut.partie1.ContexteTest
+ ✓  test_taquin_2_X_2_sans_solution_2
+ ✓  test_taquin_1_X_100_sans_solution
+ ✓  test_solution_taquin_1D_colonne_en_position_gagnante
+ ✓  test_solution_taquin_2D_colonne_en_position_gagnante
+ ✓  test_solution_taquin_1D_ligne
+ ✓  test_solution_taquin_avec_quelques_mouvements
+ ✓  test_taquin_100_X_1_sans_solution
+ ✓  test_pas_de_leveee_d_exception_pour_resoudre
+ ✓  test_solution_taquin_1D_colonne
+ ✓  test_solution_vide_taquin_1D_colonne
+ ✓  test_la_liste_solution_vide_si_taquin_non_realisable
+ ✓  test_taquin_2_X_2_sans_solution
+fr.umontpellier.iut.partie1.CoupleTest
+ ✓  test_couple_mise_a_jour_frontiere_dejavus_non_modifies
+ ✓  test_couple_getListeDeMouvements
+ ✓  test_couple_mise_a_jour_3_X_3_trou_au_milieu_dejavus_vide
+ ✓  test_mise_a_jour_frontiere_inchange_car_dejavus_contient_tous_les_fils
+ ✓  test_couple_mise_a_jour_3_X_3_trou_en_haut_droite
+ ✓  test_couple_mise_a_jour_3_X_3_trou_au_milieu_dejavus_contien_un_fils
+ ✓  test_couple_mise_a_jour_frontiere_non_modifie
+fr.umontpellier.iut.partie1.TaquinTest
+ ✓  test_generer_Fils_basMilieu
+ ✓  test_pas_gagnant_une_seule_ligne
+ ✓  test_taquin_1D_colonne_estGagnant
+  ✗ test_coherence_equals_et_hashCode
+ ✓  test_taquin_3_X_2_nest_pas_gagnant
+ ✓  test_est_gagnant_une_seule_ligne
+ ✓  test_generer_Fils_coin_3_X_3
+ ✓  test_est_gagnant_une_seule_colonne
+ ✓  test_pas_gagnant_desordre
+ ✓  test_equals_vrai_2_X_3
+ ✓  test_equals_vrai_3_X_2
+ ✓  test_equals_vrai_3_X_3
+ ✓  test_equals_vrai_4_X_4
+ ✓  test_equals_false_3_X_3
+ ✓  test_equals_false_4_X_4
+ ✓  test_trouver_trou_coin_hd_3_X_3
+ ✓  test_trouver_trou_coin_hd_4_X_4
+ ✓  test_pas_gagnant_desordre_zero_debut
+ ✓  test_taquin_1D_ligne_estGagnant
+ ✓  test_taquin_2_X_3_nest_pas_gagnant
+ ✓  test_taquin_1_X_1_gagnant
+ ✓  test_est_gagnant_vrai_3_X_3
+ ✓  test_est_gagnant_vrai_4_X_4
+ ✓  test_est_gagnant_faux_3_X_3
+ ✓  test_est_gagnant_faux_4_X_4
+ ✓  test_taquin_3_X_2_estGagnant
+ ✓  test_pas_gagnant_desordre_zero_a_la_fin
+ ✓  test_pas_gagnant_une_seule_colonne
+ ✓  test_trouver_trou_coin_bd_3_X_3
+ ✓  test_trouver_trou_coin_bd_4_X_4
+ ✓  test_taquin_2_X_3_estGagnant
+fr.umontpellier.iut.partie2.ContexteHanoiTest
+ ✓  test_resolution_hanoi_3
+ ✓  test_resolution_hanoi_4
+ ✓  test_resolution_hanoi_5
+fr.umontpellier.iut.partie2.ContexteSudokuTest
+ ✓  test_resolution_sudoku2
+ ✓  test_resolution_sudoku3
+fr.umontpellier.iut.partie2.CoupleTest
+ ✓  mettreAJour_hanoi
+ ✓  getListeDeMouvements_hanoi
+ ✓  mettreAJour_hanoi_avec_dejaVus_rempli
+fr.umontpellier.iut.partie2.HanoiTest
+ ✓  test_gagnant_quand_la_tour3_est_pleine_et_les_autres_vides
+ ✓  test_genererFils_mouvements_12_et_13_et_32
+ ✓  test_equals_hanoi
+ ✓  test_coherence_equals_et_hashCode
+ ✓  test_genererFils_hanoi
+ ✓  test_pas_gagnant_quand_le_premier_disque_est_seul_sur_tour3
+ ✓  test_si_hanoi_implemente_JeuPuzzle
+ ✓  test_genererFils_mouvements_21_et_31_et_32
+ ✓  test_est_gagnant_vrai
+ ✓  test_pas_gagnant_quand_tour3_est_vide
+fr.umontpellier.iut.partie2.SudokuTest
+ ✓  test_equals_sudoku
+ ✓  test_sudoku22_est_gagnant_vrai
+ ✓  test_coherence_equals_et_hashCode
+ ✓  test_sudoku22_generer_1_fils
+ ✓  test_sudoku33_incomplete_est_gagnant_faux
+ ✓  test_sudoku22_generer_n_ou_n_moins_1_fils
+ ✓  test_sudoku22_generer_au_plus_2_fils
+ ✓  test_si_sudoku_implemente_JeuPuzzle
+ ✓  test_sudoku22_generer_n_fils
+ ✓  test_sudoku33_est_gagnant_vrai
+ ✓  test_sudoku22_generer_fils_genere_des_fils_valides
+
+78 / 79 tests réussis
+Note: 3.857142857142857/4
